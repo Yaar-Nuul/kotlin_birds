@@ -24,5 +24,6 @@ class activity_Fourth_bird : AppCompatActivity() {
             val intent = Intent(this, FifthBirdActivity::class.java)
             startActivity(intent)
         }
+
     }
 }

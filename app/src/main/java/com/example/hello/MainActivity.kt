@@ -15,10 +15,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SecondBirdActivity::class.java)
             startActivity(intent)
         }
-        Picasso.get().load("").into(binding.imageView)
+        Picasso
+            .get()
+            .load("https://images.pexels.com/photos/1406506/pexels-photo-1406506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+            .into(binding.imageView)
     }
-    Picasso
-    .get
 }
 
 

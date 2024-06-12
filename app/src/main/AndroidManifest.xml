@@ -19,7 +19,7 @@
             android:name=".activity_Fourth_bird"
             android:exported="false" />
         <activity
-            android:name=".SecondBird"
+            android:name=".SecondBirdActivity"
             android:exported="false" />
         <activity
             android:name=".ThirdBirdActivity"
